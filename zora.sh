@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # 更新组件
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt install curl build-essential git screen jq pkg-config libssl-dev libclang-dev ca-certificates nano gnupg lsb-release -y
